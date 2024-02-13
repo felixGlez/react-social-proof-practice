@@ -4,7 +4,7 @@ import { StyledCard, StyledCardHeader } from './styles';
 
 const Card = props => {
 	return (
-		<StyledCard>
+		<StyledCard $position={props.$position}>
 			<StyledCardHeader>
 				<StyledIcon src={props.avatar} $width={props.$width} radius='2rem' />
 				<div>

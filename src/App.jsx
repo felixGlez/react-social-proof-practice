@@ -51,6 +51,7 @@ const App = () => {
 							color={card.color}
 							$width='3rem'
 							$secondaryColor={card.$secondaryColor}
+							$position={card.$position}
 						/>
 					))}
 				</MainContainer>

@@ -8,6 +8,7 @@ const StyledCard = styled.div`
 	padding: 2rem;
 	width: 30%;
 	border-radius: 1rem;
+	margin-top: ${props => props.$position};
 
 	@media screen and (max-width: 768px) {
 		width: 100%;
